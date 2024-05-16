@@ -1,10 +1,10 @@
 # 数学函数
-# abs(x): 返回数字的绝对值，如abs(-10) 返回 10
 import math
 
 number1 = 5
 number2 = -5
 number3 = 0
+# abs(x): 返回数字的绝对值，如abs(-10) 返回 10
 print("number1:", abs(number1))
 print("number2:", abs(number2))
 print("number3:", abs(number3))
