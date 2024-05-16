@@ -117,7 +117,7 @@ if (n := len(name)) > 10:
     print(n := len(name))
     print(f"List is too long ({n} elements, expected <= 10)")
 
-# 位运算符
+# 位运算符，使用二进制形式计算
 # !/usr/bin/python3
 print("\n===位运算符===")
 
@@ -201,15 +201,15 @@ if (a in list):
 else:
     print("3 - 变量 a 不在给定的列表中 list 中")
 
-#身份运算符
+# 身份运算符
 print("\n===身份运算符===")
 # !/usr/bin/python3
 
 a = 20
 b = 20
 
-print("a对象的内存地址：",id(a))
-print("b对象的内存地址：",id(b))
+print("a对象的内存地址：", id(a))
+print("b对象的内存地址：", id(b))
 if (a is b):
     print("1 - a 和 b 有相同的标识")
 else:
@@ -222,8 +222,8 @@ else:
 
 # 修改变量 b 的值
 b = 30
-print("a对象的内存地址：",id(a))
-print("b对象的内存地址：",id(b))
+print("a对象的内存地址：", id(a))
+print("b对象的内存地址：", id(b))
 if (a is b):
     print("3 - a 和 b 有相同的标识")
 else:
