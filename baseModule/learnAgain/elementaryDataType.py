@@ -298,3 +298,6 @@ x = b"hello"
 if x[0] == ord("h"):   # 其中 ord() 函数用于将字符转换为相应的整数值。
     print("The first element is 'h'")
 
+
+print(bytes("NHGdwa2134", encoding = "UTF-8"))
+
